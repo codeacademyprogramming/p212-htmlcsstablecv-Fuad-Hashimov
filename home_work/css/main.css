@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix{
+    overflow: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.container-fluid{
+    width: 70%;
+    margin: auto;
+    background-color: #f5f5f5;
+    margin-top: 5em;
+    margin-bottom: 50px;
+}
+.top-bg-line{
+    height: 8px;
+    background-color: #666666;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.under-line{
+    border-bottom: 1px solid #ccc;
+}
+h1,h2,h3{
+    font-weight: inherit;
+    color: #444;
+}
+h2{
+    font-style: italic;
+}
+p{
+    color: #444;
+}
+.float-l-70{
+    width: 70%;
+}
+.float-l-30{
+    width: 30%;
+}
+.float-l-80{
+    width: 80%;
+}
+.float-l-20{
+    width: 20%;
+}
+.float-l-70 ,.float-l-30 ,.float-l-80,.float-l-20{
+    float: left;
+}
+.mg-top-20{
+    margin-top: 20px;
+}
+.mg-top-10{
+    margin-top: 10px;
+}
+.pad-ing-t13{
+    padding: 13px 0px;
+}
+main header , section {
+    padding-bottom: 15px;
+}
+
+/* start header and header - left*/
+header{
+    margin-top: 1em;
+}
+.head-left > h1,h3{
+    letter-spacing: 3px;
+    line-height: 0px;
+    padding-bottom: 10px;
+}
+.head-left h1{
+    font-size: 50px;
+}
+.head-left h3{
+    font-size: 22px; 
+}
+/* end header left  and start header right*/
+.head-right a,span{
+    display: block;
+}
+a[download="pdf"]{
+    background-color: #666;
+    padding: 6px 30px 6px 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    width: 80%;
+    margin-bottom: 5px;
+}
+a[download]:hover{
+    background-color: #151414;
+}
+a[target="_blank"]{
+    color: #990003;
+}
+a[target="_blank"]:hover{
+    text-decoration: none;
+}
+/* end header */
+/* start main and main top*/
+.main-profile p{
+    line-height: 26px;
+    font-size: 121%;
+    padding-right: 6em;
+}
+/* main top end */
+/* main skils info */
+.skils-info{
+    margin-top: 15px;
+}
+.skils-info div{
+    width: 30%;
+    display: inline-block;
+}
+.skils-info p{
+    font-size: smaller;
+    padding-right: 2em;
+}
+.skils-info h3 , .experi-ence h3, .edu-section > h3{
+    letter-spacing: normal;
+}
+/* end main skils */
+/* technical */
+.technical-list  li{
+    width: 30%;
+    display: inline-block;
+    list-style: none;
+    color: #444;
+    padding: 0;
+}
+.technical-list {
+    padding: 0;
+}
+/* texhnical end */
+/* Experience section */
+.experi-ence h3{
+    font-size: 20px;
+}
+.experi-ence span{
+    text-align: right;
+    font-size: medium;
+}
+/* Experience section end*/
+/* education section */
+.edu-section h2{
+   font-style: normal;
+}
+.edu-section strong{
+   color: #333;
+}
+/* end education section */
+/* end main */
+/* footer */
+footer{
+    padding-bottom: 50px;
+}
+footer p{
+    text-align:center;
+}
